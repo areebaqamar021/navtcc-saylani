@@ -1,0 +1,46 @@
+.bounce{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aqua;
+    margin: auto;
+    /* animation-name: boxanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation: boxanim 3s infinite;
+    animation-delay: 3s; */
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-duration:1s ;
+}
+
+@keyframes bounce {
+  0% {
+      transform: translateY(0px);
+  } 
+  50% {
+      transform: translateY(-100px);
+  }
+  100% {
+      transform: translateY(0px);
+  }
+    
+}
+/* @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   50% {transform: translateY(-50px);} 
+    
+} */
+ /* @keyframes boxanim {
+    from {
+        background-color: yellow;
+        transform: rotate(45deg);
+    }
+    to{
+        background-color: brown;
+        transform: rotate(45deg);
+        transform: rotateY(45deg);
+        transform: rotateX(45deg);
+        transform: translate(50px);
+    }
+}  */
