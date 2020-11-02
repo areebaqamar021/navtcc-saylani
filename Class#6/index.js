@@ -44,3 +44,31 @@
 // }
 // }
 
+// var names = ['habiba', 'areeba', 'aimen','seema','maryam', 'sahar'];
+
+// console.log(names.length);
+// console.log(names[0]);
+
+// names.push('shehla');
+// console.log(names);
+
+// names.push('xyzzz');
+// console.log(names);
+
+// names.pop('xyzzz');
+// console.log(names);
+
+// names.unshift('mismah');//add in start of an array
+// console.log(names);
+
+// names.shift('mismah');//remove start from an array
+// console.log(names);
+
+// var animals= ['cat', 'dog', 'horse', 'donkey', 'monkey', 'cow','mouse', 'crow', 'eagle', 'sparrow'];
+// console.log(animals);
+
+// var birds;
+
+// birds = animals.slice(1,4);
+// console.log(birds);
+
