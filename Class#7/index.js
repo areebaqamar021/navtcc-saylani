@@ -8,6 +8,7 @@
 
 // var num = 25;
 // var strNum = num.toString();
+
 // console.log(strNum);
 
 // var students = ['ruhama', 'asma', 'madiha', 'seema','batool'];
@@ -47,7 +48,46 @@
 //     numbers.forEach(function(element) {
 //         newArr.push(element*2);
 //     });
+
+// var str = "areeba qamar zaman"
+//  var newstr
+//  function titlecase(str1){
+//      var st2 = str1.split(" ")
+//      for(var i =0; i<st2.length;i++) {
+//         st2[i] = st2[i][0].toUpperCase()+ st2[i].slice(1)
+//      }
+//      st2 =st2.join(" ")
+//      console.log(st2)
+//      return st2
+//       }
+// var newstr = titlecase(str)
+// console.log(newstr);
+
+// var word = 'areeba';
+//  var count = 0;
+//  const vowels = ["a", "e", "i", "o", "u","a"]
+//  console.log(vowels.indexOf('e'));
+
+//  function calcuateVowel(aw){
+//     var newWord = aw.split('')
+//     console.log(newWord)
+//     for(let i = 0; i < newWord.length; i++) {
+//         // if(newWord[i] == "a"  || newWord[i] == "e"|| newWord[i] == "i" || 
+//         // newWord[i] == "o" || newWord[i] == "u") {
+//         //     count++;
+//         }
+//       if(vowels.indexOf(newWord[i]) > -1) {
+//           count++
+//       }
+//     //    if (vowels.includes(newWord[i])) {
+//     //        count++;
+//     //    }
         
+//     }
+// calcuateVowel(word)
+// console.log(`you have ${count} vowels`);
+
+
 // }
 // double2(numbers);
 // console.log(newArr);
@@ -60,7 +100,16 @@
 //     console.log(item + ' ' + 'This is Fruits')
 // })
 
-
+// var arr = [2,5]
+// var newar =[]
+// function fe(arr) {
+//     arr.forEach(e => {
+//             newar.push( e*e)
+//             console.log("fe -> newar", newar)
+//     }); 
+// }
+// fe(arr)
+// console.log("fe -> newar", newar)
 
 // var city = prompt("Enter your City Name");
 // var firstChar = city.slice(0,1);

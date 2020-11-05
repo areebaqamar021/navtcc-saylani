@@ -8,6 +8,7 @@
 // var newStr = replaceStr + str.slice(19);
 // console.log(newStr);
 
+//.16
 // var start = str.indexOf('the quick brown fox');
 // var replace = 'the quick brown fox';
 // var end = start + replace.length;
@@ -17,6 +18,7 @@
 // str = str.replace(/the quick brown fox/g, 'the white cat');
 // console.log(str);
 
+//.14
 // var find = "!";
 // var str = "Hello World!";
 // var res = str.indexOf('!');
@@ -24,6 +26,7 @@
 //     console.log(`! found at address ${res}`);
 // }
 
+//.15
 // var str = "Karac  hi";
 // var numChars = str.length;
 // for (var i = 0; i < numChars; i++) {
@@ -31,7 +34,16 @@
 //        alert("Double spaces are found!");
 //         break;
 //     }
-// } 
+// }
+
+// var phrase= "my test is  double space"
+// var find = '  ';
+// for (let i = 0; i < phrase.length; i++) {
+//     if(phrase.slice(i, i+2) == "  "){
+//         console.log('yes double space found')
+//         break
+//     }
+// }
 
 // var str = prompt("Enter some text");
 // var numChars = str.length;
@@ -47,6 +59,7 @@
 //  var result = parseInt(input) + 22;
 //  console.log("result", result);
 
+//.18
 //  function roundOf(num, num1){
 //      var num = num.toFixed(num1);
 //      console.log(num);

@@ -47,6 +47,7 @@
 // var names = ['habiba', 'areeba', 'aimen','seema','maryam', 'sahar'];
 
 // console.log(names.length);
+
 // console.log(names[0]);
 
 // names.push('shehla');

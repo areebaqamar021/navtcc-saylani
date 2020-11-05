@@ -49,6 +49,25 @@
 //         alert('nothing');
 // }
 
+//for(var i =1; i <= 10; i++){
+    // //     console.log(i,' faiza')
+    // // }
+
+// var daysArr = ['sun', 'mon', 'tue', 'wed', 'thurs', 'fri', 'sat']
+// var i = 0;
+// while(i < daysArr.length ) {
+//     console.log(daysArr[i])
+//     i = i+2;
+// }
+// //sun tue thur sat
+// var b =11;
+// do{
+//     console.log(b)
+//     b++ //4
+// } while(b < 10)
+
+
+
 // function circle(radius)
 // {
 //     this.radius = radius;
@@ -104,12 +123,12 @@
 // }
 // }
 
-var ans = 5;
-var user = +prompt('enter num',4);
+// var ans = 5;
+// var user = +prompt('enter num',4);
 
-do {
-    user = +prompt('enter num', 4);
-    if (user == 5){
-        console.log('you have won');
-    }
-}while(user !== ans);
+// do {
+//     user = +prompt('enter num', 4);
+//     if (user == 5){
+//         console.log('you have won');
+//     }
+// }while(user !== ans);
