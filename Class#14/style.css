@@ -1,41 +1,56 @@
 .wrapper, body{
     margin: 2px;
-    background-color: rgb(224, 173, 173);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #78281F ;
+    color: #fff;
+    font-family: URW Chancery L, cursive;
+    text-align: center;
 }
 .wrapper{
     width: 95%;
     margin: auto;
 }
 .btn{
-    padding: 15px;
-    border-radius: 50px;
+    padding: 7px;
+    border: 3px solid grey;
+    font-size: 20px;
+    font-family: URW Chancery L, cursive;
 }
 .title{
-    text-decoration: underline;
+    font-size: 40px;
 }
 .search{
     margin: auto;
 }
 #search{
     width: 500px;
-    height: 45px;
-    border-radius: 10px;
+    height: 40px;
     border: 3px solid grey;
+    font-size: 25px;
+    font-family: URW Chancery L, cursive;
 }
 .recipeBox{
     margin: 1px;
 }
+
 .box{
     display: inline-block;
     width: 200px;
     height: 200px;
-    background-color: aquamarine;
-    border: 5px solid white;
+    background-color: #fff;
+    /* border: 5px solid white; */
+    min-height: 200px;
+    min-width: 210px;
     margin: 10px;
     padding: 5px;
+    font-family: URW Chancery L, cursive;
+}
+.box2{
+    display: inline-block;
+    min-width: 220px;
 }
 img{
     width: 200px;
-
+}
+footer{
+    background-color: black;
 }
